@@ -34,11 +34,6 @@ const windowEl = {
         navigator.geolocation.getCurrentPosition(windowEl.fetchWeather, windowEl.error)
     },
     ftw: (position) => {
-        // let lat =(position.coords.latitude);
-        // let lon =(position.coords.longitude);
-        // console.log(lat);
-        // console.log(lon);
-
         windowEl.fetchWeather(position);
     },
     error: () => {
