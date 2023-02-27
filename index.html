@@ -8,12 +8,38 @@
     <link href="Develop\css\style.css" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+      </header>
+
     <main class="container">
         <section>
-            <input type="searchLocation"></input>
-            <button id="getLocationEl">Search location</button>
+            <input type="searchLocation" id="inputElement"></input>
+            <button id="getLocationEl" onclick="appendValue()">Search location</button>
         </section>
+
+        <aside id="asideElement">
+            <button id="clearDataBttn">Clear Data</button>
+        </aside>
     </main>
+
+    <div class="weather-container">
+        <h2 class="location">Location</h2>
+        <div class="weather-info">
+          <div class="weather-icon">
+            <img src="https://via.placeholder.com/100x100" alt="Weather Icon">
+          </div>
+          <div class="temperature">
+            <span class="temperature-value">54</span>
+            <span class="temperature-unit">°F</span>
+          </div>
+          <div class="description">
+            <span class="weather-condition">Cloudy</span>
+            <span class="weather-date">27 Feb 2023</span>
+          </div>
+        </div>
+      </div>
+
     <script src="Develop\js\script.js"></script>
 </body>
 </html>

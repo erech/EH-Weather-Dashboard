@@ -1,0 +1,123 @@
+/* Body styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #3EB489;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* Search bar styles */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-container button {
+    background-color: #0077be;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #005b8e;
+  }
+  
+  /* Weather info styles */
+  .weather-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-container h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .weather-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .weather-icon img {
+    width: 100px;
+  }
+  
+  .temperature {
+    font-size: 48px;
+    margin-left: 20px;
+  }
+  
+  .temperature-value {
+    font-weight: bold;
+  }
+  
+  .temperature-unit {
+    font-size: 24px;
+  }
+  
+  .description {
+    margin-left: 20px;
+  }
+  
+  .weather-condition {
+    font-size: 24px;
+  }
+  
+  .weather-date {
+    font-size: 16px;
+    color: #666;
+    margin-left: 10px;
+  }
+
+  
+  aside {
+    background-color: lightgray;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#clearDataBttn {
+    background-color: #3EB489;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+  }
+  
+  #clearDataBttn:hover {
+    background-color: #20C073;
+  }
