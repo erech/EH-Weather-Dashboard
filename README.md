@@ -18,3 +18,4 @@ This application uses the following:
 - OpenWeatherMap API  
 
 ## Deployed URL
+https://erech.github.io/EH-Weather-Dashboard/
