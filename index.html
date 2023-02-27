@@ -12,15 +12,17 @@
         <h1>Weather Forecast</h1>
       </header>
 
-    <main class="container">
+    <main class="search-container">
         <section>
             <input type="searchLocation" id="inputElement"></input>
-            <button id="getLocationEl" onclick="appendValue()">Search location</button>
+            <button id="searchBttn" id="getLocationEl" onclick="appendValue()">Search location</button>
+        
+            <aside id="asideElement">
+                <button id="clearDataBttn">Clear Data</button>
+            </aside>
+            
         </section>
 
-        <aside id="asideElement">
-            <button id="clearDataBttn">Clear Data</button>
-        </aside>
     </main>
 
     <div class="weather-container">
