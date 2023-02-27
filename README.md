@@ -1,12 +1,20 @@
 # Weather-Forecast
-Challenge 6: Weather APIs
 
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+## Description
+This is a web application that provides current weather information for a given location.  
+The application uses the OpenWeatherMap API to fetch weather data and displays it on the browser.  
+Users can search for a specific location or allow the application to access their current location to display the weather information.  
+
+## Usage
+Navigate through the application by searching a city on the search bar.  
+The current weather data for the searched location will be populated.  
+The default data on the dashboard is the current city the user is in.  
+
+## Technologies
+This application uses the following:  
+- HTML  
+- CSS  
+- JavaScript  
+- OpenWeatherMap API  
+
+## Deployed URL
